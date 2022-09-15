@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div id="middleline"></div>
+    <div id="box"></div>
+
+    <button class="btn btn-square" onclick="main('rock')" id="btn-rock">
+        <img src="images/rock.png" alt="rock">
+    </button>
+    <button class="btn btn-square" onclick="main('paper')" id="btn-paper">
+        <img src="images/paper.png" alt="paper">
+    </button>
+    <button class="btn btn-square" onclick="main('scissors')" id="btn-scissors">
+        <img src="images/scissors.png" alt="scissors">
+    </button>
+    <div id="scoreboard">
+        <div id="player-move">?</div>
+        <div id="computer-move">?</div>
+        <div id="player-score">Player: 0</div>
+        <div id="computer-score">Computer: 0</div>
+    </div>
+    <script src="scripts/rps.js"></script>
+    <span id="github">
+        <a href="https://github.com/SomeHybrid"><img alt="GitHub link" src="images/github.png" style="width:30px"></a>
+    </span>
+</body>
+</html>
